@@ -2,6 +2,7 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
+  background-image: "images/header.jpg";
 }
 @font-face {
   font-family: OpenDyslexic;
@@ -9,10 +10,11 @@ body {
 }
 * {
   font-family: OpenDyslexic;
+  animation: fadeIn 2s;
 }
 .main {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   justify-content: center;
   background-color: blanchedalmond;
 }
@@ -24,10 +26,9 @@ div {
   margin: 0;
 }
 .header {
-  padding: 50px;
+  padding: 3rem;
   text-align: center;
-  background-color: beige;
-  animation: fadeIn 5s;
+  background-image: "images/header.jpg";
 }
 @keyframes fadeIn {
   0% { opacity: 0; }
@@ -35,14 +36,27 @@ div {
 }
 .about {
   text-align: center;
-}
-.two_pic {
-  justify-content: center;
+  padding-bottom: 1.5rem;
 }
 .two_pic{
   display:flex;
   background-color: hsl(60, 100%, 50%);
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 .left_side {
-  padding-right: 35%;
+  text-align: center;
+}
+.right_side {
+  text-align: center;
+  margin-left: 15%;
+}
+.left_pic{
+  height: 10rem;
+  width: 20rem;
+}
+.right_pic{
+  height: 10rem;
+  width: 20rem;
 }
